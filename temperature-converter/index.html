@@ -10,14 +10,14 @@
     <div>
         <h1>Temperature Converter</h1>
         <br>
-        <label for="">Celcius:</label>
-        <input type="number" name="celcius" id="celcius">
-        <br>
+        <label for="celsius">Celcius:</label>
+        <input oninput="celTo()" type="number" name="celcius" id="celsius" class="temp">
+        <br><br>
         <label for="fahrenheit">Fahrenheit:</label>
-        <input type="number" name="fahrenheit" id="fahrenheit">
-        <br>
-        <label for="kelvin">Kelvin</label>
-        <input type="number" name="kelvin" id="kelvin">
+        <input oninput="fahTo()" type="number" name="fahrenheit" id="fahrenheit" class="temp">
+        <br><br>
+        <label for="kelvin">Kelvin:</label>
+        <input oninput="kelTo()" type="number" name="kelvin" id="kelvin" class="temp">
     </div>
 
     <script src="script.js"></script>

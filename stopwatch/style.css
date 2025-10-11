@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    font-size: 4rem;
+    font-family: Courier, monospace;
+    color: hsl(335, 78%, 49%);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.4s ease;
+}
+#start{
+    background-color: hsl(140, 100%, 40%);
+}
+#start:hover{
+    background-color: hsl(140, 100%, 30%);
+}
+#stop{
+    background-color: hsl(4, 100%, 40%);
+}
+#stop:hover{
+    background-color: hsl(0, 100%, 30%);
+}
+#reset{
+    background-color: hsl(192, 100%, 40%);
+}
+#reset:hover{
+    background-color: hsl(192, 100%, 30%);
+}

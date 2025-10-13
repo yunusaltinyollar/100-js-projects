@@ -1,0 +1,31 @@
+
+body {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    background-color: hsla(78, 34%, 50%, 0.829);
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+}
+
+.container {
+    color: hsl(0, 0%, 30%);
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: .125rem;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 1em;
+}
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
